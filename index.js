@@ -18,6 +18,7 @@ const PORT = 5000;
  * a JSON response with a list containing the account information of the accounts the manager manages.
  *
  * All accounts the managers manage also exist in the database.
+ * Assume all data is dynamic so we cannot store any data locally.
  */
 
 app.get("/:manager", async (req, res) => {
